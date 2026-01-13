@@ -15,6 +15,8 @@ public class FinallyExample {
             System.out.println("a is :" + a);
             System.out.println("b is :" + b);
             System.out.println("res is :" + res);
+            System.out.println("finally always executes");
         }
+//        we can write a try block without catch block but finally must be present or catch must be present.try and catch,try and finally,or try catch and finally these combinations must be present.
     }
 }
